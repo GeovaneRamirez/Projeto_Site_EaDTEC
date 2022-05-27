@@ -26,8 +26,7 @@ h6 {
 ::-webkit-scrollbar {
   width: 12px;
   background-color: rgb(0, 0, 0);
-  border-radius: 1px;
-  border: 1px solid rgb(114, 114, 114);
+  border: 1px solid rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar:hover {
@@ -39,6 +38,13 @@ h6 {
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(0, 0, 0);    
-    border-radius: 1px;      
-    border: 3px solid rgb(151, 151, 151);
+    border-radius: 20px;      
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 0, 0);   
+    border: 10px solid rgb(175, 175, 175);
+    border-radius: 20px;      
+    border: 3px solid rgb(190, 190, 190);
   }
