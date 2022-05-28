@@ -1,7 +1,7 @@
 # [Projeto_Site_EaDTEC](https://geovaneramirez.github.io/Projeto_Site_EaDTEC/)
 Site criado durante a realização o Curso Técnico em Desenvolvimento de Sistemas realizado no Centro Paula Souza - EaDTEC
 
-## [link para acessar o projeto pronto](https://geovaneramirez.github.io/Projeto_Site_EaDTEC/)
+## [link para acessar o site](https://geovaneramirez.github.io/Projeto_Site_EaDTEC/)
 
 
 
