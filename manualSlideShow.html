@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>SlideShow</title>
+</head>
+<body>
+<h2 class="w3-center">Slideshow Manual</h2>
+
+
+<div class="w3-content w3-display-container w3-center">
+
+  <div class="slides w3-display-container">
+    <div class="w3-half">
+      <img src="img/m.png" style="width:60%" class="w3-opacity w3-hover-opacity-off">
+  </div>
+    <div class="w3-left-align">
+    <h3 class="w3-text-cyan">Francisca Amendoa Carvalho</h3>
+    <h5 class="w3-text-cyan">Formação Acadêmica</h5>
+    <p>Graduada em Tecnologia em Processamento de Dados pela Faculdade de São Paulo (1998).<br>
+       Mestre em Ciência da Computação pelo Centro Universitário São Luiz (2018).</p>
+    <h5 class="w3-text-cyan">Atuação Profissional</h5>
+       Experiência na Area de Educação.</p>
+      </div>
+    </div>
+
+<div class="slides w3-display-container">
+  <div class="w3-half">
+    <img src="img/h.png" style="width:60%" class="w3-opacity w3-hover-opacity-off">
+</div>
+  <div class="w3-left-align">
+    <h3 class="w3-text-cyan">Marcio Soares</h3>
+    <h5 class="w3-text-cyan">Formação Acadêmica</h5>
+    <p>Graduado em Ciêcia da Computação pela Universidade Federal de São Carlos (2009).<br>
+       Mestre em Ciência da Computação pela Universidade Federal de São Carlos (2017).</p>
+    <h5 class="w3-text-cyan">Atuação Profissional</h5>
+    <p>Professora Titular da Faculdade de Tecnologia de Campinas.<br>
+       Diretor Regional do Centro Paula Souza.</p>
+    </div>
+</div>
+    
+  <button class="w3-button w3-cyan w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-cyan w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>

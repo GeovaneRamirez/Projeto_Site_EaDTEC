@@ -17,4 +17,4 @@ Após desenvolver todo o site e ter estudado o HTML 5, CSS 3 e as facilidades de
 
 • A nova seção ”Docentes” deve ficar entre as Seções Grade Curricular e Mercado de Trabalho, tanto na navbar quanto no corpo da página.
 
-• Coloque uma foto para cada docente com seu nome e uma breve descrição de sua formação e atuação profissional (currículo).
+• Coloque uma foto para cada docente com seu nome e uma breve descrição de sua formação e atuação profissional (currículo)
